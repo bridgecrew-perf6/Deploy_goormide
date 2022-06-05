@@ -1,8 +1,8 @@
 #!/bin/sh
 # Free RDP GoormIDE
-sudo adduser aank --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
-echo "aank:LinggaHosting" | sudo chpasswd
-sudo usermod -aG sudo,adm aank
+sudo adduser test --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
+echo "test:1234" | sudo chpasswd
+sudo usermod -aG sudo,adm test
 sudo apt install screen
 sudo apt update
 clear
